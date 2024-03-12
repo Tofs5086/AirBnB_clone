@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""the module for City class."""
+"""Module for City class."""
 
 from models.base_model import BaseModel
 
 
 class City(BaseModel):
-    """class representing a City."""
+    """Class representing a City."""
     state_id = ""
     name = ""
